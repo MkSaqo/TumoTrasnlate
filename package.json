@@ -1,0 +1,30 @@
+{
+  "name": "myproj",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bingspeech-api-client": "^2.4.1",
+    "browser-speak": "^0.1.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "fs": "^0.0.1-security",
+    "google-tts-api": "0.0.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "react-voice-components": "^1.0.0",
+    "speechless": "^0.2.3",
+    "vcap_services": "^0.3.4",
+    "watson-developer-cloud": "^3.2.1",
+    "watson-speech": "^0.34.1",
+    "ya-translate": "^1.0.0"
+  },
+  "scripts": {
+    "server": "node src/server.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
